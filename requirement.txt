@@ -1,0 +1,15 @@
+streamlit
+torch
+segmentation-models-pytorch
+albumentations
+opencv-python-headless
+fpdf2
+pandas
+numpy
+matplotlib
+pillow
+folium
+streamlit-folium
+copernicusmarine
+opendrift
+gdown
