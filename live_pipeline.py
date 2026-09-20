@@ -28,10 +28,10 @@ import gdown
 # Auto-download the trained model from Google Drive if not present locally.
 # Replace YOUR_FILE_ID with the actual ID from your Google Drive share link:
 # e.g. https://drive.google.com/file/d/1AbCdEfGhIjK.../view -> ID is "1AbCdEfGhIjK..."
-MODEL_DRIVE_FILE_ID = "YOUR_FILE_ID"   # <-- replace this before deploying
+MODEL_DRIVE_FILE_ID = "1FkxI_Ni_cqln7TGXRMSgbJcLBy4vmmfe"   # <-- replace this before deploying
 MODEL_PATH = "best_oil_spill_unet.pth"
 
-if not os.path.exists(MODEL_PATH) and MODEL_DRIVE_FILE_ID != "YOUR_FILE_ID":
+if not os.path.exists(MODEL_PATH) and MODEL_DRIVE_FILE_ID != "1FkxI_Ni_cqln7TGXRMSgbJcLBy4vmmfe":
     gdown.download(
         f"https://drive.google.com/uc?id={MODEL_DRIVE_FILE_ID}",
         MODEL_PATH, quiet=False
